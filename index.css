@@ -37,3 +37,13 @@ button {
 .player-container {
     margin: 100px 0;
 }
+
+@media (min-width: 900px) {
+    h2, p, button {
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+}
