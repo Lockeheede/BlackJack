@@ -150,6 +150,8 @@ function playGame() {
     }
     messageEl.textContent = message
     newGame = false;
+    hasBlackJack = false;
+    dealerHasBlackJack = false;
     isAlive = false;
     standing = false;
 }
