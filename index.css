@@ -38,7 +38,7 @@ button {
     margin: 100px 0;
 }
 
-@media (min-width: 900px) {
+@media (max-width: 1000px) {
     h2, p, button {
         font-size: 2em;
     }
