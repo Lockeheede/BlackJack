@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <div class="blackjack-col">
+            <div class="container">
+                <h2>Player</h2>
+                <p id="cards-el">Player's Cards:</p>
+                <p id="sum-el">Player's Sum:</p>
+                <button onclick="startGame()">DEAL</button>
+                <button onclick="newCard()">HIT</button>
+                <button onclick="stand()">STAND</button>
+                <!-- <p id="player-el"></p> -->
+            </div>
+            <div class="dealer-container">
+                <h2>Dealer</h2>
+                <p id="dealer-cards-el">Dealer's Cards:</p>
+                <p id="dealer-sum-el">Dealer's Sum:</p>
+            </div>
+        </div>
+        <p id="message-el"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
