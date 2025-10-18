@@ -107,7 +107,7 @@ function renderDealerGame() {
 
 function newCard() {
     if (standing === true) return;
-    if (isAlive === true && hasBlackJack === false) {
+    if (isAlive === true) {
         let card = getRandomCard()
         sum += card
         cards.push(card)
